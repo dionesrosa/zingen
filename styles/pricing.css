@@ -33,6 +33,14 @@
     width: 100%;
   }
 
+  .btn[aria-label] {
+    position: relative;
+
+    &::before {
+      background: var(--surface-color);
+    }
+  }
+
   & .separator {
     height: 1px;
     margin-block: 2rem;
